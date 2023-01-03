@@ -56,35 +56,34 @@ body {
     margin: 0 auto;
 }
 
-.travel__bg {
+.bg {
     margin: 0 auto;
     width: 1200px;
     height: 702px;
     background: url(../img/header/road.png) no-repeat;    
 }
 
-.travel__layer {
+.bg__layer {
     width: 1200px;
     height: 702px;
     background: rgba(203, 152, 107, 0.3);
 }
 
-.travel__size {
+.bg__layer-size {
     max-width: 1000px;
     margin: 0 auto;
 }
 
-.travel__header {
-    width: 1000px;
+.header {
     display: flex;
     justify-content: space-between;
 }
 
-.travel__logo {
+.header__logo {
     margin-top: 38px;
 }
 
-.travel__menu {
+.header__menu {
     margin-top: 71px;
     a {
         padding: 11px 15px;
@@ -103,18 +102,18 @@ body {
     }
 }
 
-.travel__description-form {
+.description {
     display: flex;
     justify-content: space-between;
 }
 
-.travel__descriptiom {
+.descriptiom__travel {
     align-self: flex-start;
     margin-top: 163px ;
     width: 530px;
 }
 
-.travel__descriptiom-title-red {
+.descriptiom__travel-title-red {
     font-family: 'Montserrat';
     color: #d03958;
     font-size: 85px;
@@ -123,7 +122,7 @@ body {
     text-transform: uppercase;
 }
 
-.travel__descriptiom-title-black {
+.descriptiom__travel-title-black {
     font-family: 'Montserrat';
     font-size: 85px;
     font-weight: 700;
@@ -132,13 +131,15 @@ body {
     text-transform: uppercase;
 }
 
-.travel__descriptiom-text {
+.descriptiom__travel-text {
+    display: inline-block;
+    padding-top: 30px;
     color: #161616;
     font-size: 20px;
     letter-spacing: -0.4px;
 }
 
-.travel__form {
+.description__form{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -151,7 +152,7 @@ body {
     border-radius: 7px;
 }
 
-.travel__form-input {
+.description__form-input {
     margin: 8px 0 8px 0;
     padding-left: 19px;
     width: 334px;
@@ -163,7 +164,7 @@ body {
     letter-spacing: -0.4px;
 }
 
-.travel__form-text {
+.description__form-text {
     padding: 0 106px 27px 86px;
     color: #ffffff;
     font-family: "Montserrat";
@@ -174,26 +175,26 @@ body {
     text-align: center;
 }
 
-.travel__form-checkbox {
+.description__form-checkbox {
     display: flex;
     justify-content: flex-start;
     margin-top: 14px;
     width: 360px;
 }
 
-.travel__form-checkbox-box {
+.description__form-checkbox-box {
     width: 19px;
     height: 18px;
 }
 
-.travel__form-checkbox-text {
+.description__form-checkbox-text {
     padding-left: 23px;
     color: #ffffff;
     font-size: 20px;
     letter-spacing: -0.4px;
 }
 
-.travel__form-button {
+.description__form-button {
     margin-top: 20px;
     width: 353px;
     height: 55px;
